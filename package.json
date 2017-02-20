@@ -8,6 +8,7 @@
     "clean": "rm -rf dist",
     "watch": "webpack -d --watch",
     "bs": "browser-sync start --config bs-config.js -s ./dist --ss ./dist --files='./dist/**/*.html, ./dist/js/**/*.js'",
+    "dev": "npm run watch & npm run bs",
     "cp-html": "cp -rf ./src/html/ ./dist"
   },
   "repository": {

@@ -1,0 +1,10 @@
+{
+  "extends": "airbnb",
+  "env": {
+    "browser": true
+  },
+  "rules": {
+    "eqeqeq": 1,
+    "prefer-const": 0,
+  }
+}
