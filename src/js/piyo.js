@@ -1,5 +1,5 @@
 const sum = (x, y) => x + y;
-const hege = 5;
+const hoge = 5;
 const fuga = 3;
 
 const piyo = sum(hoge, fuga);

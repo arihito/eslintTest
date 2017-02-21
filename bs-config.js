@@ -1,5 +1,5 @@
 module.exports = {
-  ul: {
+  ui: {
     port: 3001,
     weinre: {
       port: 8080,

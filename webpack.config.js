@@ -7,6 +7,11 @@ const js = {
     // どのjsを読み込むかの宣言で今回はmain.js
     module: `${__dirname}/src/js/main.js`,
   },
+  output: {
+    path: `${__dirname}/dist/js/`,
+    // distに吐き出されるファイル名はbundle.jsになるという宣言
+    filename: 'bundle.js',
+  },
   module: {
     rules: [
       {
